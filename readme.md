@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=SOtC1VLZKm4
 
+57:30
+
 Pipeline 1
 
 ```YAML
@@ -26,8 +28,10 @@ Added test
 
 ```YAML
 - task: DotNetCoreCLI@2
-  inputs: 
+  inputs:
     command: test
     projects: '**/*test/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 ```
+
+https://dev.azure.com/pegaba/Vidtutorial/_apis/build/status/pegaba.VidTutorial?branchName=master
