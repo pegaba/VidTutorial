@@ -1,7 +1,7 @@
 https://www.youtube.com/watch?v=SOtC1VLZKm4
 
 57:30
-
+1:02:24: start AZURE configuration
 Pipeline 1
 
 ```YAML
